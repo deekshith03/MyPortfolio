@@ -402,6 +402,7 @@ html {
 }
 
 .bottom {
+  display: block;
   margin-top: 10vw;
   overflow: hidden;
   background-color: rgb(0, 0, 0);
@@ -500,4 +501,87 @@ html {
 .education p:last-child {
 	 border-bottom-right-radius: 0;
 	 border-bottom-left-radius: 0;
+}
+
+.gif-container
+{
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .topnav {
+    height: auto;
+  }
+
+  .TopLine
+{
+  font-size: 6.5vw;
+  margin-top: 5vw;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0vw;
+  }
+
+  .Objective
+  {
+    width: auto;
+  }
+
+  .gif-container
+  {
+    display: none;
+  }
+
+  .single-proj
+  {
+    flex-direction: column;
+  }
+
+  .single-proj .project-desc {
+    display: flex;
+    flex-direction: column;
+    width:auto;
+  }
+
+  .single-proj .videosize
+  {
+    width: 90vw;
+  }
+
+  #single-2
+  {
+    flex-direction: column-reverse;
+  }
+
+  .education
+  {
+    flex-direction: column;
+    margin-left: 7vw;
+    margin-right: 2vw;
+    padding-top: 15vw;
+  }
+
+  .InternshipList
+  {
+    flex-direction: column;
+  }
+
+  .InternshipList li {
+    width: auto;
+    margin-right: 5vw;
+  }
+
+  .InternshipList .Int-image {
+    width: 100%;
+  }
+
+  .bottom
+  {
+    display: none;
+  }
+
 }
