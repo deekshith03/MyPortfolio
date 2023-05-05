@@ -180,9 +180,9 @@ html {
   overflow: hidden;
   background-color: rgb(0, 0, 0);
   position: fixed;
-  height: 4vw;
+  height: 8vh;
   padding-right: 2vw;
-  opacity: 0.9;
+  opacity: 1;
   z-index: +1;
 }
 
@@ -369,7 +369,7 @@ html {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: center;
-  gap: 5vw;
+  gap: 3vw;
 }
 
 .InternshipList li{
@@ -378,9 +378,10 @@ html {
 
 .InternshipList .Int-image
 {
-  width: 42.016%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 42.06%;
-  margin: 0 auto 2.4rem;
 }
 
 .InternshipList .Date
